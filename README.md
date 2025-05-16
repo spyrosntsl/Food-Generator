@@ -8,3 +8,6 @@ Built to practice **HTML + CSS + JavaScript** and basic **Git/GitHub** workflow.
 - ES6 modules & DOM API
 - Hosted on **GitHub Pages** (enable it in the repo’s *Pages* settings)
 
+## Live Demo  
+👉 [https://...  ](https://github.com/spyrosntsl/Food-Generator.git)
+![Screenshot](assets/screenshot.png)
