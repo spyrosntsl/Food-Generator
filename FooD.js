@@ -1,3 +1,4 @@
+// FooD.js
 const btn = document.getElementById("btn-1");
 btn.addEventListener("click", fetchRandomRecipe);
 
@@ -7,8 +8,8 @@ async function fetchRandomRecipe() {
     const data = await res.json();
     const meal = data.meals[0];
 
-    document.getElementById("recipe-name").textContent  = meal.strMeal;
-    document.getElementById("recipe-steps").textContent = meal.strInstructions;
+    document.getElementById("recipe-name").innerHTML  = meal.strMeal;
+    document.getElementById("recipe-steps").innerHTML = meal.strInstructions;
   } catch (err) {
     console.error(err);
     alert("Something went wrong. Try again.");
