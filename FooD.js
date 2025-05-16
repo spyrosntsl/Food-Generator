@@ -12,6 +12,6 @@ async function fetchRandomRecipe() {
     document.getElementById("recipe-steps").textContent = meal.strInstructions;
   } catch (err) {
     console.error(err);
-    alert("Κάτι πήγε στραβά, ξαναδοκίμασε!");
+    alert("something went wrong try again");
   }
 }
