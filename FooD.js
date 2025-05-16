@@ -11,7 +11,7 @@ async function fetchRandomRecipe() {
     document.getElementById("recipe-name").textContent = meal.strMeal;
     document.getElementById("recipe-steps").textContent = meal.strInstructions;
   } catch (err) {
-    console.error(err);
+    console.error(err)
     alert("something went wrong try again");
   }
 }

@@ -9,5 +9,5 @@ Built to practice **HTML + CSS + JavaScript** and basic **Git/GitHub** workflow.
 - Hosted on **GitHub Pages** (enable it in the repo’s *Pages* settings)
 
 ## Live Demo  
-👉 [https://...  ](https://github.com/spyrosntsl/Food-Generator.git)
+👉 [https://...  ](https://spyrosntsl.github.io/Food-Generator/)
 ![Screenshot](assets/screenshot.png)
